@@ -44,7 +44,7 @@ const Registration = () => {
   };
 
   return (
-    <>
+    <div className={styles.containerPage}>
       <Header></Header>
       <div className={styles.container}>
         <h1 className={styles.title}>Регистрация</h1>
@@ -136,7 +136,7 @@ const Registration = () => {
           </button>
         </form>
       </div>
-    </>
+    </div>
   );
 };
 

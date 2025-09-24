@@ -6,20 +6,22 @@ $photo-height: 300px; // Фиксированная высота для фото
 .cardContainer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  margin: 20px;
+  max-width: 1450px;
+  margin: 0 auto;
+  margin-top: 20px;
+  gap: 0.5%;
 }
 
 .card {
   border: 1px solid #ccc;
   border-radius: $border-radius;
   padding: 16px;
-  width: 500px;
+  width: 33%;
   height: auto;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   text-align: center;
-  margin: 10px;
   cursor: pointer;
+  margin-bottom: 20px;
 }
 
 .buttons {
@@ -34,10 +36,8 @@ $photo-height: 300px; // Фиксированная высота для фото
 }
 
 .photo {
-  width: 100%;
-  height: $photo-height;
-  border-radius: $border-radius;
-  object-fit: contain;
+  width: 90%;
+  height: auto;
   background-color: #f0f0f0;
 }
 
